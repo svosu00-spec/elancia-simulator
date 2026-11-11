@@ -1,0 +1,2550 @@
+[
+  { "Id": 1610612840, "Name": "렉스", "Map": 270, "X": 26, "Y": 14, "Floor": 0,
+    "Sprite": 16414, "Flags": 11, "Type": 2, "Text": "렉스" },
+  {
+    "Id": 1610612857, "Name": "젠", "Map": 912, "X": 12, "Y": 12, "Floor": 0,
+    "Sprite": 16556, "Flags": 11, "Type": 2, "Text": "젠",
+    "OpenDialog": {
+      "Mode": 13, "Flags": 1, "PortraitKind": 1, "Sprite": 16556, "Color": 0,
+      "HeaderData": 21015552, "Text": "", "X": 12, "Y": 12, "MenuCodes": [0, 0, 0, 111]
+    },
+    "DialogReplies": [{
+      "Flags": 1, "Menu": 111, "Length": 8,
+      "Dialog": {
+        "Mode": 0, "Flags": 1, "PortraitKind": 1, "Sprite": 16556, "Color": 0,
+        "HeaderData": 21015552, "Text": "", "Options": [
+          { "Text": "행정업무", "Id": 1032 }, { "Text": "배틀포인트충전", "Id": 1030 }
+        ]
+      }
+    }],
+    "PursuitReplies": [
+      {
+        "Request": "39010408",
+        "Packet": "MAIBAAAAAAFArAAAAAAAAAAAAQAAAES+yLPnx8+8vL/kPyDA+rTCIMfgwaQgvve5q7imILTjtOfHz7DtIMDWvcC0z7TZLiC5q775wLsgtbW/zbXluLGx7r/kPwIIwfe+97D8t8MEwb634Q=="
+      },
+      {
+        "Request": "39010408/3A01000000020101",
+        "Packet": "MAIBAAAAAAFArAAAAAAAAAAAAQAAABe+7rayILDNwLsgtbW/zbXluLGx7r/kPwIKwfe+97n2uK6x4gTBvrfh"
+      },
+      {
+        "Request": "39010408/3A01000000020101/3A01000000020101",
+        "Packet": "MAIBAAAAAAFArAAAAAAAAAAAAQAAAITB9773wLsgufa4rrHiIMCnx9i8rbTCILz2vPa34bfOIHs9ajEwMDAwez1hILCluK615bimILnevcC0z7TZLiC0673FIL7Guasgwfe+98DMs6ogufa4sSC89iDA1sH2v+QuILChwfaw7SDA1rTCIMH3vvfAuyC59riuvcOw2r3AtM+x7j8CAr+5Br7GtM+/wA=="
+      },
+      {
+        "Request": "39010406",
+        "Packet": "MAIBAAAAAAFArAAAAAAAAAAAAQAAAJW56Mayt7m6p8DMIHs9ajB7PWHAziC60LXpv6Egx9HH2LytLi4guejGsiDG98DOxq64piDD5sD8x9i15biusO0gwNa9wLTPtNkuILChsN3AuiB7PWcxMDAwez1hsKW4rrXlwMyw7S4uIHs9bTV7PWG4uMWtIMPmwPzH2LXluLO0z7TZLiDD5sD8x8+9w7DavcC0z7HuPwICv7kGvsa0z7/A"
+      },
+      {
+        "Request": "39010406/3A01000000020101",
+        "Packet": "MAABAAAAAAFArAAAAAAAAAAAAQABAArD5sD8v8+34SEh"
+      }
+    ]
+  },
+  {
+    "Map": 209,
+    "X": 23,
+    "Y": 59,
+    "Floor": 0,
+    "Sprite": 16497,
+    "Name": "스텔라",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612787,
+    "Text": "스텔라",
+    "OpenDialog": {
+      "Mode": 12,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 16497,
+      "Color": 0,
+      "HeaderData": 21000448,
+      "Text": "",
+      "ActionCode": 132
+    },
+    "DialogReplies": [
+      {
+        "Flags": 1,
+        "Menu": 132,
+        "Length": 10,
+        "Dialog": {
+          "Mode": 12,
+          "Flags": 1,
+          "PortraitKind": 1,
+          "Sprite": 16497,
+          "Color": 0,
+          "HeaderData": 21000448,
+          "Text": "스텔라",
+          "ActionCode": 133,
+          "ActionText": "어서오세요. 일랜시아의 은행입니다!"
+        }
+      }
+    ]
+  },
+  {
+    "Map": 210,
+    "X": 51,
+    "Y": 24,
+    "Floor": 1,
+    "Sprite": 16509,
+    "Name": "홀리",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612825,
+    "Text": "홀리",
+    "OpenDialog": {
+      "Mode": 13,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 16509,
+      "Color": 0,
+      "HeaderData": 21003520,
+      "Text": "",
+      "X": 51,
+      "Y": 24,
+      "MenuCodes": [
+        0,
+        0,
+        0,
+        111
+      ]
+    },
+    "PursuitReplies": [
+      {
+        "Request": "3901006F",
+        "Packet": "MAABAAAAAAFAfQAAAAAAAAAAAQABABe788XCsKEgyLi6uSC1x776vcC0z7TZLg=="
+      }
+    ]
+  },
+  {
+    "Map": 10210,
+    "X": 51,
+    "Y": 24,
+    "Floor": 1,
+    "Sprite": 16509,
+    "Name": "홀리",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612817,
+    "Text": "홀리",
+    "OpenDialog": {
+      "Mode": 13,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 16509,
+      "Color": 0,
+      "HeaderData": 21003520,
+      "Text": "",
+      "X": 51,
+      "Y": 24,
+      "MenuCodes": [
+        0,
+        0,
+        0,
+        111
+      ]
+    },
+    "PursuitReplies": [
+      {
+        "Request": "3901006F",
+        "Packet": "MAABAAAAAAFAfQAAAAAAAAAAAQABABe788XCsKEgyLi6uSC1x776vcC0z7TZLg=="
+      }
+    ]
+  },
+  {
+    "Map": 216,
+    "X": 36,
+    "Y": 8,
+    "Floor": 0,
+    "Sprite": 16499,
+    "Name": "실비아",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612785,
+    "Text": "실비아",
+    "Shop": [
+      { "Key": "recorded-8f07-b4dcb0cbbfebb5b6284c763129", "Price": 397, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8c31-b1e6b5e5c0fcb8c5b4babef3", "Price": 79, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8d17-bcf6c8a3c3b5bbe7c0d3b8edc0e5", "Price": 79, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8bc0-baf3bab4", "Price": 7, "Flags": 5, "RestockCapacity": 5 },
+      { "Key": "recorded-8c41-c6d2", "Price": 137, "Flags": 5, "RestockCapacity": 5 },
+      { "Key": "recorded-8017-bfecb5e7c7cfc7c1", "Price": 1153, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8d42-c1f6b7b7c0ccbab428bcd229", "Price": 158, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8d43-c1f6b7b7c0ccbab428c1df29", "Price": 397, "Flags": 20, "RestockCapacity": 20 },
+      { "Key": "recorded-8d44-c1f6b7b7c0ccbab428b4eb29", "Price": 596, "Flags": 7, "RestockCapacity": 8 },
+      { "Key": "recorded-8010-bcf6bcb1bcbcc6ae", "Price": 3978, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "oran-feather", "Price": 7, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "ras-feather", "Price": 388, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8ef0-b0b3c0ceb9e6bfadbce8", "Price": 79, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8f81-b0b3c0ceb9e6c6d6b8bb284c763129", "Price": 1193, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8f82-b0b3c0ceb9e6c6d6b8bb284c763229", "Price": 3978, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8f83-b0b3c0ceb9e6c6d6b8bb284c763329", "Price": 11934, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8cd4-b8f0b7a1bdc3b0e828b0edb1de29", "Price": 237, "Flags": 10, "RestockCapacity": 10, "Description": "  " },
+      { "Key": "recorded-8cd5-b8f0b7a1bdc3b0e828c1dfb1de29", "Price": 158, "Flags": 20, "RestockCapacity": 20, "Description": "  " },
+      { "Key": "recorded-8cd6-b8f0b7a1bdc3b0e8", "Price": 79, "Flags": 100, "RestockCapacity": 100, "Description": "  " },
+      { "Key": "recorded-8013-c8b6bad2", "Price": 166, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8014-bee7c3ca", "Price": 357, "Flags": 10, "RestockCapacity": 10 },
+      { "Key": "recorded-8015-b7a5c7c1", "Price": 596, "Flags": 5, "RestockCapacity": 5 },
+      { "Key": "recorded-8cd7-bfe4b8aec3a5", "Price": 39, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8c34-bcbcb0f8c3a5", "Price": 39, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8c32-bdbab9ccbdbac3a5", "Price": 39, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8c33-c0e7b4dcc3a5", "Price": 39, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8c35-bfacb1ddbcfac3a5", "Price": 39, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8008-c7c8bed7bdba", "Price": 79, "Flags": 10, "RestockCapacity": 10 },
+      { "Key": "recorded-8011-b9ccb8aebfc2bdbac4b3b3ca", "Price": 94, "Flags": 10, "RestockCapacity": 10 },
+      { "Key": "recorded-800c-bfe4b8aec5b0c6ae", "Price": 158, "Flags": 10, "RestockCapacity": 10 },
+      { "Key": "recorded-8006-b3acbdcbb4eb", "Price": 79, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-800d-bdbab9ccbdbac5b0c6ae", "Price": 1989, "Flags": 10, "RestockCapacity": 10 },
+      { "Key": "recorded-8010-c0e7b4dcc5b0c6ae", "Price": 1989, "Flags": 10, "RestockCapacity": 10 },
+      { "Key": "recorded-800e-bcbcb0f8c5b0c6ae", "Price": 1989, "Flags": 10, "RestockCapacity": 10 },
+      { "Key": "recorded-839b-bfacb1ddbcfac5b0c6ae", "Price": 1989, "Flags": 10, "RestockCapacity": 10 },
+      { "Key": "recorded-8bbf-bdc7c7e8bfebb1e231", "Price": 7, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8bbf-bdc7c7e8bfebb1e232", "Price": 11, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8bbf-bdc7c7e8bfebb1e233", "Price": 15, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8bbf-bdc7c7e8bfebb1e234", "Price": 19, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8bbf-bdc7c7e8bfebb1e235", "Price": 23, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8bbf-bdc7c7e8bfebb1e236", "Price": 31, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8bc0-b5b6c1a6c1b6bab4", "Price": 158, "Flags": 100, "RestockCapacity": 100 },
+      { "Key": "recorded-8bec-b9b0", "Price": 1, "Flags": 100, "RestockCapacity": 100 }
+    ],
+    "OpenDialog": { "Mode": 13, "Flags": 1, "PortraitKind": 1, "Sprite": 16499, "Color": 0, "HeaderData": 21000960, "Text": "", "X": 36, "Y": 8, "MenuCodes": [64, 65, 0, 111] }
+  },
+  {
+    "Map": 202,
+    "X": 12,
+    "Y": 16,
+    "Floor": 0,
+    "Sprite": 16388,
+    "Name": "수련장",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612781,
+    "Text": "수련장",
+    "Shop": [
+      {
+        "Key": "recorded-8d1f-bcf6b7c3c0cec7fc283530304729",
+        "Price": 582,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8d20-bcf6b7c3c0cec7fc28323530304729",
+        "Price": 2917,
+        "Flags": 39
+      },
+      {
+        "Key": "recorded-8d21-bcf6b7c3c0cec7fc2831303030304729",
+        "Price": 11668,
+        "Flags": 9
+      }
+    ],
+    "OpenDialog": {
+      "Mode": 13,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 16388,
+      "Color": 0,
+      "HeaderData": 20972544,
+      "Text": "",
+      "X": 12,
+      "Y": 16,
+      "MenuCodes": [
+        64,
+        65,
+        0,
+        111
+      ]
+    }
+  },
+  {
+    "Id": 1610612737,
+    "Name": "로컬 안내",
+    "Map": 0,
+    "X": 33,
+    "Y": 15,
+    "Floor": 0,
+    "Sprite": 16602,
+    "Flags": 11,
+    "Type": 2,
+    "Crafting": true,
+    "Text": "로컬 테스트 서버입니다.\n/where : 현재 위치\n/refresh : 주변 갱신\n/heal : 기본 상태 갱신\n/go 맵번호 X Y 층 : 지정 위치로 이동\nNPC 배치와 대화는 로컬 테스트용이며 원본 서버 자료가 아닙니다."
+  },
+  {
+    "Id": 1610612738,
+    "Name": "로컬 안내",
+    "Map": 2,
+    "X": 162,
+    "Y": 88,
+    "Floor": 1,
+    "Sprite": 16602,
+    "Flags": 11,
+    "Type": 2,
+    "Crafting": true,
+    "Text": "로랜시아 로컬 테스트입니다.\n/where : 현재 위치\n/refresh : 주변 갱신\n/look reference : 본섭 관찰 외형 비교\n/look recent : 최근 관찰 외형\n/look reset : 생성 당시 외형\n이 NPC는 테스트용이며 실제 배치를 복원한 것이 아닙니다."
+  },
+  {
+    "Id": 1610612739,
+    "Name": "루비",
+    "Map": 215,
+    "X": 24,
+    "Y": 33,
+    "Floor": 0,
+    "Sprite": 16489,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "",
+    "Crafting": true,
+    "OpenDialog": {
+      "Mode": 13, "Flags": 1, "PortraitKind": 1, "Sprite": 16489, "Color": 0,
+      "HeaderData": 20998400, "Text": "", "X": 24, "Y": 33, "MenuCodes": [64, 65, 0, 111]
+    },
+    "Shop": [
+      {
+        "Id": 1,
+        "Key": "iron-ring",
+        "Price": 123,
+        "Flags": 3
+      },
+      {
+        "Id": 2,
+        "Key": "silver-ring",
+        "Price": 247,
+        "Flags": 0
+      },
+      {
+        "Id": 3,
+        "Key": "gold-ring",
+        "Price": 618,
+        "Flags": 0
+      },
+      {
+        "Id": 4,
+        "Key": "iron-necklace-basic",
+        "Price": 655,
+        "Flags": 100
+      },
+      {
+        "Id": 5,
+        "Key": "silver-necklace",
+        "Price": 1114,
+        "Flags": 10
+      },
+      {
+        "Id": 6,
+        "Key": "gold-necklace",
+        "Price": 1548,
+        "Flags": 5
+      },
+      {
+        "Id": 7,
+        "Key": "ruby-necklace",
+        "Price": 2081,
+        "Flags": 1
+      }
+    ]
+  },
+  {
+    "Id": 1610612740,
+    "Name": "고깃상점",
+    "Map": 2,
+    "X": 106,
+    "Y": 216,
+    "Floor": 2,
+    "Sprite": 17467,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "고깃상점"
+  },
+  {
+    "Id": 1610612741,
+    "Name": "편집국",
+    "Map": 2,
+    "X": 107,
+    "Y": 189,
+    "Floor": 3,
+    "Sprite": 17457,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "편집국"
+  },
+  {
+    "Id": 1610612742,
+    "Name": "베이커리",
+    "Map": 2,
+    "X": 126,
+    "Y": 216,
+    "Floor": 2,
+    "Sprite": 17459,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "베이커리"
+  },
+  {
+    "Id": 1610612743,
+    "Name": "테디의옷가게",
+    "Map": 2,
+    "X": 136,
+    "Y": 216,
+    "Floor": 2,
+    "Sprite": 17462,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "테디의옷가게"
+  },
+  {
+    "Id": 1610612744,
+    "Name": "여관",
+    "Map": 2,
+    "X": 148,
+    "Y": 176,
+    "Floor": 2,
+    "Sprite": 17450,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "여관"
+  },
+  {
+    "Id": 1610612745,
+    "Name": "피니의옷가게",
+    "Map": 2,
+    "X": 148,
+    "Y": 216,
+    "Floor": 2,
+    "Sprite": 17462,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "피니의옷가게"
+  },
+  {
+    "Id": 1610612746,
+    "Name": "단체대련보로",
+    "Map": 2,
+    "X": 151,
+    "Y": 185,
+    "Floor": 1,
+    "Sprite": 16388,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "단체대련보로"
+  },
+  {
+    "Id": 1610612747,
+    "Name": "길드만들기",
+    "Map": 2,
+    "X": 159,
+    "Y": 185,
+    "Floor": 1,
+    "Sprite": 16437,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "길드만들기"
+  },
+  {
+    "Id": 1610612748,
+    "Name": "갑옷상점",
+    "Map": 2,
+    "X": 167,
+    "Y": 216,
+    "Floor": 2,
+    "Sprite": 17449,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "갑옷상점"
+  },
+  {
+    "Id": 1610612749,
+    "Name": "게시판",
+    "Map": 2,
+    "X": 175,
+    "Y": 185,
+    "Floor": 1,
+    "Sprite": 16439,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "게시판"
+  },
+  {
+    "Id": 1610612750,
+    "Name": "목공소",
+    "Map": 2,
+    "X": 187,
+    "Y": 176,
+    "Floor": 3,
+    "Sprite": 17468,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "목공소"
+  },
+  {
+    "Id": 1610612751,
+    "Name": "석공소",
+    "Map": 2,
+    "X": 198,
+    "Y": 176,
+    "Floor": 3,
+    "Sprite": 17463,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "석공소"
+  },
+  {
+    "Id": 1610612752,
+    "Name": "무타이",
+    "Map": 200,
+    "X": 34,
+    "Y": 29,
+    "Floor": 0,
+    "Sprite": 16491,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "무타이",
+    "Shop": [
+      {
+        "Key": "chicken-meat",
+        "Price": 61,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8c75-c7dc",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8cb0-c7c1b6fbc5a920bcd2bdc3c1f6",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8c7a-c7dcb9f6b1d720c7dc",
+        "Price": 23,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8be1-b5c5c1f6b0edb1e228c1b6b0a229",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8c1c-b5c5c1f6b0edb1e2",
+        "Price": 110,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8c03-bce8b0edb1e228c1b6b0a229",
+        "Price": 11,
+        "Flags": 10
+      },
+      {
+        "Key": "egg",
+        "Price": 11,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8bd7-bdcebff2b4df28becb29",
+        "Price": 494,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8bd7-b9ccc4a3b4df28becb29",
+        "Price": 1859,
+        "Flags": 100
+      }
+    ]
+  },
+  {
+    "Id": 1610612753,
+    "Name": "세크티",
+    "Map": 203,
+    "X": 47,
+    "Y": 21,
+    "Floor": 0,
+    "Sprite": 16495,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "세크티",
+    "Shop": [
+      {
+        "Key": "recorded-809a-b7b9b4f5bec6b8d328c7cfb4c3bbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-809b-b7b9b4f5bec6b8d328bfacb5cebbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-809c-b7b9b4f5bec6b8d328c8b2c5e4bbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-809d-b7b9b4f5bec6b8d328bab8b6f3bbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-809e-b7b9b4f5bec6b8d328bad0c8abbbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-809f-b7b9b4f5bec6b8d328c0dac1d6bbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-80a0-b7b9b4f5bec6b8d328b0cbc1a4bbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-80a1-b7b9b4f5bec6b8d328bfacc0dabbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-80a2-b7b9b4f5bec6b8d328c1d6c8b2bbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-80a3-b7b9b4f5bec6b8d328b1bac3bbbbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-80a4-b7b9b4f5bec6b8d328c6c4b6f5bbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-80a5-b7b9b4f5bec6b8d328b3ebb6f5bbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-80a6-b7b9b4f5bec6b8d328bfacb0a5bbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-80a7-b7b9b4f5bec6b8d328bba1b0a3bbf629",
+        "Price": 928,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-80a8-b7b9b4f5bec6b8d328c7cfbee1bbf629",
+        "Price": 928,
+        "Flags": 3
+      }
+    ]
+  },
+  {
+    "Id": 1610612754,
+    "Name": "카딜라",
+    "Map": 204,
+    "X": 25,
+    "Y": 9,
+    "Floor": 0,
+    "Sprite": 16391,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "카딜라",
+    "Shop": [
+      {
+        "Key": "recorded-8c55-bfe4b8aec1f6c4a7bcad28312d3129",
+        "Price": 123,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8c55-bfe4b8aec1f6c4a7bcad28312d3229",
+        "Price": 123,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8c55-bfe4b8aec1f6c4a7bcad28312d3329",
+        "Price": 123,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8c55-bfe4b8aec1f6c4a7bcad28312d3429",
+        "Price": 123,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8c56-bfe4b8aec1f6c4a7bcad28322d3129",
+        "Price": 123,
+        "Flags": 10
+      },
+      {
+        "Key": "recorded-8c56-bfe4b8aec1f6c4a7bcad28322d3229",
+        "Price": 123,
+        "Flags": 10
+      },
+      {
+        "Key": "recorded-8c56-bfe4b8aec1f6c4a7bcad28322d3329",
+        "Price": 123,
+        "Flags": 10
+      },
+      {
+        "Key": "recorded-8c56-bfe4b8aec1f6c4a7bcad28322d3429",
+        "Price": 123,
+        "Flags": 10
+      },
+      {
+        "Key": "recorded-8c56-bfe4b8aec1f6c4a7bcad28322d3529",
+        "Price": 743,
+        "Flags": 10
+      },
+      {
+        "Key": "recorded-8c57-bfe4b8aec1f6c4a7bcad28332d3129",
+        "Price": 247,
+        "Flags": 10
+      },
+      {
+        "Key": "recorded-8c57-bfe4b8aec1f6c4a7bcad28332d3229",
+        "Price": 247,
+        "Flags": 10
+      },
+      {
+        "Key": "recorded-8c58-bfe4b8aec1f6c4a7bcad28342d3129",
+        "Price": 990,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8c58-bfe4b8aec1f6c4a7bcad28342d3229",
+        "Price": 1487,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8c58-bfe4b8aec1f6c4a7bcad28342d3329",
+        "Price": 2230,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8c58-bfe4b8aec1f6c4a7bcad28342d3429",
+        "Price": 2726,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8c58-bfe4b8aec1f6c4a7bcad28342d3529",
+        "Price": 3469,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8d15-b0edbfebbcad28b9ccc7c7bfa429",
+        "Price": 12398,
+        "Flags": 10
+      },
+      {
+        "Key": "recorded-8d15-b0edbfebbcad28bfa4b0a1b3eb29",
+        "Price": 24796,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8d15-b0edbfebbcad28c8d6b8aebdba29",
+        "Price": 49592,
+        "Flags": 3
+      },
+      {
+        "Key": "recorded-8d15-b0edbfebbcad28b3d7bdc329",
+        "Price": 74388,
+        "Flags": 1
+      },
+      {
+        "Key": "recorded-8d15-b0edbfebbcad28c5cdb1d729",
+        "Price": 123981,
+        "Flags": 0
+      },
+      {
+        "Key": "recorded-8d15-b0edbfebbcad28bcd2bedf29",
+        "Price": 309952,
+        "Flags": 0
+      },
+      {
+        "Key": "recorded-8bbe-bdc4c3ca",
+        "Price": 11,
+        "Flags": 10
+      },
+      {
+        "Key": "recorded-8d45-bfcdbbe7baf1",
+        "Price": 36,
+        "Flags": 10
+      },
+      {
+        "Key": "recorded-8be5-bcd2b1dd",
+        "Price": 5,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8be4-bcb3c5c1",
+        "Price": 5,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8c77-c8c4c3df",
+        "Price": 5,
+        "Flags": 35
+      },
+      {
+        "Key": "recorded-8c71-b8b6bfe4b3d7c1ee",
+        "Price": 14,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8cb5-b9d9b4d2b6f320c7e2b7e1",
+        "Price": 7,
+        "Flags": 7
+      },
+      {
+        "Key": "recorded-8c19-c3cac4c3b8b420b9ddc1d7",
+        "Price": 61,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8c16-b9d0b0a1b7e720b9ddc1d7",
+        "Price": 23,
+        "Flags": 7
+      },
+      {
+        "Key": "recorded-8c19-c4abc4abbfc020b9ddc1d7",
+        "Price": 110,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8c1a-c8adc0ccc6ae20bcd2bdba",
+        "Price": 28,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8cb1-b5feb1e220c2b4",
+        "Price": 11,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8c0c-c5a9b8b2",
+        "Price": 6,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8ca9-b1e8",
+        "Price": 23,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8d0f-b9f6c5cd",
+        "Price": 5,
+        "Flags": 30
+      },
+      {
+        "Key": "recorded-8c6e-c4a1c1ee",
+        "Price": 5,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8cab-c2fcb1e2b8a7",
+        "Price": 23,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8c78-bdc4bba7",
+        "Price": 3,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8cad-bdbac7c120b0a1b7e7",
+        "Price": 11,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8c72-c4abb7b920b0a1b7e7",
+        "Price": 27,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8c74-bdd2",
+        "Price": 61,
+        "Flags": 15
+      }
+    ]
+  },
+  {
+    "Id": 1610612755,
+    "Name": "슈",
+    "Map": 204,
+    "X": 34,
+    "Y": 32,
+    "Floor": 0,
+    "Sprite": 16496,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "슈",
+    "Shop": [
+      {
+        "Key": "recorded-8bc8-bbe7b0fa",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bc9-b9d9b3aab3aa",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bca-bab9bcfebec6",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bcd-b0a8",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bcc-b9e3",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bce-bcf6b9da",
+        "Price": 14,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bcf-b8deb7d0",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bd0-b9e8",
+        "Price": 23,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bd1-c3bcb8ae",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bd2-c6f7b5b5",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bdc-b6a5c4e1",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bd3-c5e4b8b6c5e4",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bdd-b0edc3df",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bde-c7b2b0edc3df",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8caf-b4e7b1d9",
+        "Price": 3,
+        "Flags": 40
+      },
+      {
+        "Key": "recorded-8ca1-b5feb1e2",
+        "Price": 7,
+        "Flags": 60
+      },
+      {
+        "Key": "recorded-8bcb-b7b9b8f3",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8cae-bee7c6c4",
+        "Price": 11,
+        "Flags": 20
+      },
+      {
+        "Key": "recorded-8bdf-b0a8c0da",
+        "Price": 11,
+        "Flags": 40
+      },
+      {
+        "Key": "recorded-8bc0-baf3bab4",
+        "Price": 11,
+        "Flags": 10
+      },
+      {
+        "Key": "recorded-8cdc-bfecc0af",
+        "Price": 7,
+        "Flags": 0
+      },
+      {
+        "Key": "recorded-8c1e-bbfdbcb1",
+        "Price": 123,
+        "Flags": 10
+      }
+    ]
+  },
+  {
+    "Id": 1610612756,
+    "Name": "테디",
+    "Map": 207,
+    "X": 26,
+    "Y": 41,
+    "Floor": 0,
+    "Sprite": 16505,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "테디",
+    "Shop": [
+      {
+        "Key": "recorded-806d-b9ddb9d9c1f628c7cfb4c3bbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-806e-b9ddb9d9c1f628bfacb5cebbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-806f-b9ddb9d9c1f628c8b2c5e4bbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8070-b9ddb9d9c1f628bab8b6f3bbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8071-b9ddb9d9c1f628bad0c8abbbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8072-b9ddb9d9c1f628c0dac1d6bbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8073-b9ddb9d9c1f628b0cbc1a4bbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8074-b9ddb9d9c1f628bfacc0dabbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8075-b9ddb9d9c1f628c1d6c8b2bbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8076-b9ddb9d9c1f628b1bac3bbbbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8077-b9ddb9d9c1f628c6c4b6f5bbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8078-b9ddb9d9c1f628b3ebb6f5bbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8079-b9ddb9d9c1f628bfacb0a5bbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-807a-b9ddb9d9c1f628bba1b0a3bbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-807b-b9ddb9d9c1f628c7cfbee1bbf629",
+        "Price": 91,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-808b-b9d9c1f628c7cfb4c3bbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-808c-b9d9c1f628bfacb5cebbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-808d-b9d9c1f628c8b2c5e4bbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-808e-b9d9c1f628bab8b6f3bbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-808f-b9d9c1f628bad0c8abbbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8090-b9d9c1f628c0dac1d6bbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8091-b9d9c1f628b0cbc1a4bbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8092-b9d9c1f628bfacc0dabbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8093-b9d9c1f628c1d6c8b2bbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8094-b9d9c1f628b1bac3bbbbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8095-b9d9c1f628c6c4b6f5bbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8096-b9d9c1f628b3ebb6f5bbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8097-b9d9c1f628bfacb0a5bbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8098-b9d9c1f628bba1b0a3bbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8099-b9d9c1f628c7cfbee1bbf629",
+        "Price": 184,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-804c-b7b9b4f5bdb4c1ee28c7cfb4c3bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-804d-b7b9b4f5bdb4c1ee28bfacb5cebbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-804e-b7b9b4f5bdb4c1ee28c8b2c5e4bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-804f-b7b9b4f5bdb4c1ee28bab8b6f3bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8050-b7b9b4f5bdb4c1ee28bad0c8abbbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8051-b7b9b4f5bdb4c1ee28c0dac1d6bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8052-b7b9b4f5bdb4c1ee28b0cbc1a4bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8053-b7b9b4f5bdb4c1ee28bfacc0dabbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8054-b7b9b4f5bdb4c1ee28c1d6c8b2bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8055-b7b9b4f5bdb4c1ee28b1bac3bbbbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8056-b7b9b4f5bdb4c1ee28c6c4b6f5bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8057-b7b9b4f5bdb4c1ee28b3ebb6f5bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8058-b7b9b4f5bdb4c1ee28bfacb0a5bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8059-b7b9b4f5bdb4c1ee28bba1b0a3bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-805a-b7b9b4f5bdb4c1ee28c7cfbee1bbf629",
+        "Price": 123,
+        "Flags": 4
+      }
+    ]
+  },
+  {
+    "Id": 1610612757,
+    "Name": "피니",
+    "Map": 207,
+    "X": 52,
+    "Y": 41,
+    "Floor": 0,
+    "Sprite": 16508,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "피니",
+    "Shop": [
+      {
+        "Key": "recorded-805e-c6a9b4d028c7cfb4c3bbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-805f-c6a9b4d028bfacb5cebbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8060-c6a9b4d028c8b2c5e4bbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8061-c6a9b4d028bab8b6f3bbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8062-c6a9b4d028bad0c8abbbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8063-c6a9b4d028c0dac1d6bbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8064-c6a9b4d028b0cbc1a4bbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8065-c6a9b4d028bfacc0dabbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8066-c6a9b4d028c1d6c8b2bbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8067-c6a9b4d028b1bac3bbbbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8068-c6a9b4d028c6c4b6f5bbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8069-c6a9b4d028b3ebb6f5bbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-806a-c6a9b4d028bfacb0a5bbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-806b-c6a9b4d028bba1b0a3bbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-806c-c6a9b4d028c7cfbee1bbf629",
+        "Price": 61,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-807c-b0a1b4cfbdac28c7cfb4c3bbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-807d-b0a1b4cfbdac28bfacb5cebbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-807e-b0a1b4cfbdac28c8b2c5e4bbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-807f-b0a1b4cfbdac28bab8b6f3bbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8080-b0a1b4cfbdac28bad0c8abbbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8081-b0a1b4cfbdac28c0dac1d6bbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8082-b0a1b4cfbdac28b0cbc1a4bbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8083-b0a1b4cfbdac28bfacc0dabbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8084-b0a1b4cfbdac28c1d6c8b2bbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8085-b0a1b4cfbdac28b1bac3bbbbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8086-b0a1b4cfbdac28c6c4b6f5bbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8087-b0a1b4cfbdac28b3ebb6f5bbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8088-b0a1b4cfbdac28bfacb0a5bbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-8089-b0a1b4cfbdac28bba1b0a3bbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-808a-b0a1b4cfbdac28c7cfbee1bbf629",
+        "Price": 309,
+        "Flags": 2
+      },
+      {
+        "Key": "recorded-804c-b7b9b4f5bdb4c1ee28c7cfb4c3bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-804d-b7b9b4f5bdb4c1ee28bfacb5cebbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-804e-b7b9b4f5bdb4c1ee28c8b2c5e4bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-804f-b7b9b4f5bdb4c1ee28bab8b6f3bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8050-b7b9b4f5bdb4c1ee28bad0c8abbbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8051-b7b9b4f5bdb4c1ee28c0dac1d6bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8052-b7b9b4f5bdb4c1ee28b0cbc1a4bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8053-b7b9b4f5bdb4c1ee28bfacc0dabbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8054-b7b9b4f5bdb4c1ee28c1d6c8b2bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8055-b7b9b4f5bdb4c1ee28b1bac3bbbbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8056-b7b9b4f5bdb4c1ee28c6c4b6f5bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8057-b7b9b4f5bdb4c1ee28b3ebb6f5bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8058-b7b9b4f5bdb4c1ee28bfacb0a5bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-8059-b7b9b4f5bdb4c1ee28bba1b0a3bbf629",
+        "Price": 123,
+        "Flags": 4
+      },
+      {
+        "Key": "recorded-805a-b7b9b4f5bdb4c1ee28c7cfbee1bbf629",
+        "Price": 123,
+        "Flags": 4
+      }
+    ]
+  },
+  {
+    "Id": 1610612758,
+    "Name": "미용바니",
+    "Map": 210,
+    "X": 15,
+    "Y": 35,
+    "Floor": 0,
+    "Sprite": 16492,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "미용바니"
+  },
+  {
+    "Id": 1610612759,
+    "Name": "티포네",
+    "Map": 210,
+    "X": 75,
+    "Y": 35,
+    "Floor": 0,
+    "Sprite": 16507,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "티포네"
+  },
+  {
+    "Map": 212,
+    "X": 37,
+    "Y": 9,
+    "Floor": 0,
+    "Sprite": 16488,
+    "Name": "레나",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612773,
+    "Text": "레나",
+    "Shop": [
+      {
+        "Key": "recorded-8003-b7d5bcd2b5e5",
+        "Price": 481,
+        "Flags": 5
+      },
+      {
+        "Key": "scimitar",
+        "Price": 481,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8007-b9d9bdbac5b8b5e5bcd2b5e5",
+        "Price": 757,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-800b-b1d7b7b9c0ccc6aebcd2b5e5",
+        "Price": 1398,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8000-b4ebb0c5",
+        "Price": 139,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8016-b0edc5c2b5b5",
+        "Price": 2798,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8009-b7d5bdbac7c7beee",
+        "Price": 232,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8004-b9ddbff9b5b5",
+        "Price": 575,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8001-bed7bdba",
+        "Price": 447,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8002-c7dcb8d3",
+        "Price": 449,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8005-bfecb5e7bab8bfec",
+        "Price": 340,
+        "Flags": 5
+      },
+      {
+        "Key": "recorded-8017-bfecb5e7c7cfc7c1",
+        "Price": 1690,
+        "Flags": 4
+      }
+    ],
+    "OpenDialog": {
+      "Mode": 13,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 16488,
+      "Color": 0,
+      "HeaderData": 20998144,
+      "Text": "",
+      "X": 37,
+      "Y": 9,
+      "MenuCodes": [
+        64,
+        65,
+        0,
+        111
+      ]
+    }
+  },
+  {
+    "Map": 201,
+    "X": 44,
+    "Y": 27,
+    "Floor": 0,
+    "Sprite": 16494,
+    "Name": "행운장",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612778,
+    "Text": "행운장",
+    "Shop": [
+      {
+        "Key": "recorded-8e17-c7e0bfeec0ccb1eab5e7c1bec0cc",
+        "Price": 1238,
+        "Flags": 0
+      }
+    ],
+    "OpenDialog": {
+      "Mode": 13,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 16494,
+      "Color": 0,
+      "HeaderData": 20999680,
+      "Text": "",
+      "X": 44,
+      "Y": 27,
+      "MenuCodes": [
+        64,
+        65,
+        0,
+        111
+      ]
+    },
+    "DialogReplies": [
+      {
+        "Flags": 1,
+        "Menu": 111,
+        "Length": 8,
+        "Dialog": {
+          "Mode": 0,
+          "Flags": 1,
+          "PortraitKind": 1,
+          "Sprite": 16494,
+          "Color": 0,
+          "HeaderData": 20999680,
+          "Text": "",
+          "Options": [
+            {
+              "Text": "행운의코인교환",
+              "Id": 1428
+            },
+            {
+              "Text": "행운이깃든종이확인",
+              "Id": 1374
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Map": 211,
+    "X": 47,
+    "Y": 15,
+    "Floor": 0,
+    "Sprite": 16506,
+    "Name": "테레즈",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612779,
+    "Text": "테레즈",
+    "Shop": [
+      {
+        "Key": "healing-potion-1ml",
+        "Price": 11,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8bc2-c8fab8b5c6f7bcc728326d6c29",
+        "Price": 36,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8bc3-c8fab8b5c6f7bcc728336d6c29",
+        "Price": 110,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8bc4-c8fab8b5c6f7bcc728346d6c29",
+        "Price": 247,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8bc5-c8fab8b5c6f7bcc728356d6c29",
+        "Price": 370,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8bc6-c8fab8b5c6f7bcc728366d6c29",
+        "Price": 618,
+        "Flags": 100
+      },
+      {
+        "Key": "recorded-8fdc-c8fab8b5c6f7bcc728376d6c29",
+        "Price": 1487,
+        "Flags": 100
+      }
+    ],
+    "OpenDialog": {
+      "Mode": 13,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 16506,
+      "Color": 0,
+      "HeaderData": 21002752,
+      "Text": "",
+      "X": 47,
+      "Y": 15,
+      "MenuCodes": [
+        64,
+        65,
+        0,
+        111
+      ]
+    },
+    "PursuitReplies": [
+      {
+        "Request": "3901006F",
+        "Packet": "MAABAAAAAAFAegAAAAAAAAAAAQABABe788XCsKEgyLi6uSC1x776vcC0z7TZLg=="
+      }
+    ]
+  },
+  {
+    "Id": 1610612760,
+    "Name": "메티니",
+    "Map": 218,
+    "X": 29,
+    "Y": 8,
+    "Floor": 0,
+    "Sprite": 18390,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "메티니",
+    "OpenDialog": {
+      "Mode": 13,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 18390,
+      "Color": 0,
+      "HeaderData": 21485056,
+      "Text": "",
+      "X": 29,
+      "Y": 8,
+      "MenuCodes": [
+        0,
+        0,
+        0,
+        111
+      ]
+    },
+    "PursuitReplies": [
+      {
+        "Request": "3901006F",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAWQABAGjA+rTCIHs9bbjexry0z3s9YbbzsO0gx9i/5C58wfax3SC48L3AwLogwMy3uLDUIHs9bcCvwM3Azns9YcDHILjwvcDAuLfOILvswfa4uC4gwPq1tSDAzrCjwNPAuiDIrr3Hx9W0z7TZLg=="
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAWgEBAK/A/CC4trn9IMfQsbO4piC/rb3JyPcgtNm0z7T4IHs9aLfOt6O9w77GILi2uf3H0LGzez1hIL+svPa7/SDAzLHitbUgx9+9wLTPtNkusde3uMH2uLguIMD8ILi2uf3AxyDI+8C7ILOqu9sgsPe/oSC757/rx9+9wLTPtNkuILvntve16cC7ILGrt9PI97DFs6osILW/ubDAuyCxq7fTyPex4iC9w8Dbx9+++sH2v+Qu"
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAWwEBAKvA+sDHIMDMt7Egx+C1v8C7ILq4tNkguPjH0S4gez1tt7q9uns9YbTCIMD9ILi2wLu/obytIMPfueYgvcPFsLDtILfOt6O9w77GILy6wMcgw9aw7cDHILi2uf2758DOIHs9bbqjs9d7PWG/oSDAx8fYIMD6wdawoSCwybfBIMDMt7EguPC9wMC4t84guLbAu7+hvK0gw9+55iC058fPsNQgtce++rTktM+02S4="
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00/3A0100F6005C00",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAXAEBASnBprChILTZvcMgwM6wo8C4t84gtbm+xiC/wLHiIMCnx9i8rbTCILyxx+DAuyC4ucDMIMfYvt8gx9G02bDtIMfPtPWxur/kLiCx17ehvK0gwPwguLa5/cC7IMDfILjwuKOwxbOqLCC4trn9u+ewoSC1x7HmIL/4x8+0wiC757b3tenAuyDDo77GILHXtem/obDUILi2uf3AuyDA/Lz2x9ggwdaw7SDA1rTktM+02S4gtNnH4CDAzLW1LCC4trfCwLogvuDHz8H2uLggwPwgvsbB9yCx7sH2ILi2uf3AuyC757/rx9IgvPYgwNbAuLTPse6/5C4gwMywzSC4uMC4t861tSC6+8DHIL+pvcUgv6QoRWwpwMcgw+C6uSDAziCwzSCwsL3AtM+02S4="
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00/3A0100F6005C00/3A0100F6005D00",
+        "Packet": "MAIBAAAAAAFH1gAAAAAAAPYAXQEBAEmx17extaUgwaYgwMy+37HisKEgsea+7iDBs7G6v+QuILHXt7G1pSC0573FwLogvu62siDB9773wLsgvvKw7SC9zcC4vLy/5C4/BQe+xyAgILvnB8D8ICAgu+cHu/MgICDAzga48MfosKEHuasgICDB9w=="
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00/3A0100F6005C00/3A0100F6005D00/3A0100F6005E00",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAZAABAE7AvS4uILPXIMHBwLogs6q4p7Trt84gwNq9xcDHILv9sKLAzCDA1r7uILyxxcPHz73FILHmwMy287DtIMD8ILv9sKIgx8+w2r3AtM+02S4="
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00/3A0100F6005C00/3A0100F6005D00/3A0100F6005E00/3A0100F6006500",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAZQEBAFrA/CDAzMGmILi2uf3AuyC89rfDx9i+3yCw2r3AtM+02S4gsde3syDBwcC6IL3DsKMgtce9w7DtLCDH17vzILyxx+DAuyC6o8eqtMIgu+e298DMILXHvLy/5C4="
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00/3A0100F6005C00/3A0100F6005D00/3A0100F6005E0102",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAZAABAE7AvS4uILPXIMHBwLogs6q4p7Trt84gwNq9xcDHILv9sKLAzCDA1r7uILyxxcPHz73FILHmwMy287DtIMD8ILv9sKIgx8+w2r3AtM+02S4="
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00/3A0100F6005C00/3A0100F6005D00/3A0100F6005E0102/3A0100F6006500",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAZQEBAFrA/CDAzMGmILi2uf3AuyC89rfDx9i+3yCw2r3AtM+02S4gsde3syDBwcC6IL3DsKMgtce9w7DtLCDH17vzILyxx+DAuyC6o8eqtMIgu+e298DMILXHvLy/5C4="
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00/3A0100F6005C00/3A0100F6005D00/3A0100F6005E0101",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAaAABAIO/zb/sLn4gvse757/kLiC0573FwLogurjF6yC757b3sPogvuCwoyC02bijseK0wiDHz7G6v+QuILq4xesgwP0gw6O+xiC/wLTCILvntve16cC6ILTrus660CDA/LvnL7vzwM4vuPDH6LChILXuwMwgtci02bDtIMfPvcO0+LWlv+QuLg=="
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00/3A0100F6005C00/3A0100F6005D00/3A0100F6005E0101/3A0100F6006900",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAaQEBAHC+x7vntvO46SC+x7HiuKYgtNm357TCILvntvfAzyDF2bWlILTnvcXAuiC02bfqIMHZIL7GtMIgvsex4rChIMDWwLi8vL/kLj8gyKS9wyB7PWbHz8fBez1huKYgv6zB1iDH0iC89iDA1rTCwfa/5C4/"
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00/3A0100F6005C00/3A0100F6005D00/3A0100F6005E0101/3A0100F6006900/3A0100F6006A00",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAagEBAKjBprChIMHfv+TH0SC7573HwLsgx9GwocH2IL7Lt8EgteW4rsH2v+QuILi2uf3AuyC757/rx8+x4iDAp8fYvK20wiC+x7HiuKYgvu60wCDBpLW1ILTZuKYgwdkgvsu+xr7fIMfRtOS0z7TZLiC0573FwLogvsuw1CC48LijsNQguLa5/SC758DHILHmt84guvzBriC16bDtIMDWtMIgsM3AzLb4tM+02S4="
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00/3A0100F6005C00/3A0100F6005D00/3A0100F6005E0101/3A0100F6006900/3A0100F6006A00/3A0100F6006B00",
+        "Packet": "MAIBAAAAAAFH1gAAAAAAAPYAawEBAHXBprChILTnvcW/obDUIFt7PWK4rrjeteN7PWFdwMy287TCILi2uf3AuyC+y7fBILXluK6w7SC9zcC6taW/5C4gtOe9xb+hsNQgwaawoSCwobijw8QgteW4sSC89iDA1rTCILHiyLi4piDB1r3DsNq+7r/kLj8CCCAgIL+5ICAgBr7GtM+/wA=="
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00/3A0100F6005C00/3A0100F6005D00/3A0100F6005E0101/3A0100F6006900/3A0100F6006A00/3A0100F6006B00/3A0100F6006C0101",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAcwABAQK/zSEgvcWzrbTZLiDA/CC2xyDH0SC60LKyILyxx+DAuyC56MeuvPYgwNaw1CC1x776vcC0z7TZLiDBprChIMDOsKPAzCC1ySC89iDA1rTCILOvtbUgvvO4tiCzssH2IL7KvtLAuyCwzSCwsL7Gv+QuIMj3yPcgvsa4trW1IFs3NTYwXbjtwusgv6Gw1CC09SC8scfgwLsguejHrrjpILXJILDNtbUgsLDAurWlILi7wMy/ob/kLiC7573HIMGmsKEgvP3A2r+htMIgvuDH2LytIL7zuLazqiCzsr7StMLB9iC4xbn4ILHivu/AzCCzqsH2tMIgvsq+xr/kLi4uIMj3yPc="
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00/3A0100F6005C00/3A0100F6005D00/3A0100F6005E0101/3A0100F6006900/3A0100F6006A00/3A0100F6006B00/3A0100F6006C0101/3A0100F6007400",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAdAEBALSx17e4tNm46SDAz7TcILTnvcXAzCDA+r+hsNQguLa5/cC7ILnov++89iDA1rTCIMHYuvGwoSC1x776tMLB9iDIrsDOx9gguriw2r3AtM+02S4guLa5/cC7ILvnv+vHz7HiIMCnx9i8rbTCIMGkvcXA+8DOILTJt8LAzCC22b7us6q+3yDHz8H2uLguIMCww7zA+8DOILTJt8K1tSC+7rTAIMGktbUgtce+7r7fIMfVtM+02S4="
+      },
+      {
+        "Request": "3901006F/3A0100F6005A00/3A0100F6005B00/3A0100F6005C00/3A0100F6005D00/3A0100F6005E0101/3A0100F6006900/3A0100F6006A00/3A0100F6006B00/3A0100F6006C0101/3A0100F6007400/3A0100F6007500",
+        "Packet": "MAABAAAAAAFH1gAAAAAAAPYAdgABALe+xsH3ILTnvcXAuiDAsMO8wPsgvPa3w8DMILT6ILXHvvq9wLTPtNkuIMG7tPUguPbAuyC03LfDIL3DxbCw7SDA/SDDo77GIL/Nwda8vL/kLiEhILLAIMDMv+QuISDA/CC0573Fv6Gw1CC1tb/ywLsgwdaw7SC9zb7uv+QuISCx17iusO0sIMD8ILTnvcXAuyC1tb/NIMG7tPUgu6G4riDAzrCjwMwgtckgvPa1tSDA1rDtv+QuLiA="
+      }
+    ]
+  },
+  {
+    "Id": 1610612848, "Name": "에레노아", "Map": 219, "X": 59, "Y": 22, "Floor": 0,
+    "Sprite": 16500, "Flags": 11, "Type": 2, "Text": "에레노아"
+  },
+  {
+    "Id": 1610612761,
+    "Name": "라체",
+    "Map": 220,
+    "X": 34,
+    "Y": 27,
+    "Floor": 0,
+    "Sprite": 16386,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "라체",
+    "OpenDialog": {
+      "Mode": 13, "Flags": 1, "PortraitKind": 1, "Sprite": 16386, "Color": 0,
+      "HeaderData": 20972032, "Text": "", "X": 34, "Y": 27, "MenuCodes": [64, 65, 0, 0]
+    },
+    "Shop": [
+      { "Key": "oran-feather", "Price": 7, "Flags": 100 },
+      { "Key": "ras-feather", "Price": 349, "Flags": 100 },
+      { "Key": "healing-potion-1ml", "Price": 7, "Flags": 100 },
+      { "Key": "recorded-8bc2-c8fab8b5c6f7bcc728326d6c29", "Price": 21, "Flags": 100 },
+      { "Key": "recorded-8bc3-c8fab8b5c6f7bcc728336d6c29", "Price": 63, "Flags": 100 },
+      { "Key": "recorded-8d23-b8b6b3aac6f7bcc728316d6c29", "Price": 7, "Flags": 100 },
+      { "Key": "recorded-8d24-b8b6b3aac6f7bcc728326d6c29", "Price": 21, "Flags": 100 },
+      { "Key": "recorded-8d25-b8b6b3aac6f7bcc728336d6c29", "Price": 49, "Flags": 100 },
+      { "Key": "recorded-8f08-bdbac7c7b5e5c6f7bcc728316d6c29", "Price": 71, "Flags": 100 },
+      { "Key": "recorded-8f18-c3bcb7c2c7e2bbf3c6f7bcc728316d6c29", "Price": 71, "Flags": 100 },
+      { "Key": "recorded-8c4f-baeab8aeb5f0bff2", "Price": 71, "Flags": 10 },
+      { "Key": "recorded-8c50-b4d9b4cfbff2", "Price": 71, "Flags": 0 },
+      { "Key": "recorded-8c51-b8b6c7cfb5f0bff2", "Price": 71, "Flags": 10 },
+      { "Key": "recorded-8c52-baeab6f3c5b0b5f0bff2", "Price": 71, "Flags": 0 },
+      { "Key": "recorded-8c53-bfa4bbe7b8aebec6", "Price": 142, "Flags": 0 },
+      { "Key": "recorded-8c54-c5d7bbe7b6f9c6ae", "Price": 142, "Flags": 0 }
+    ]
+  },
+  {
+    "Id": 1610612762,
+    "Name": "길드기",
+    "Map": 223,
+    "X": 24,
+    "Y": 14,
+    "Floor": 0,
+    "Sprite": 16481,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "길드기"
+  },
+  {
+    "Id": 1610612763,
+    "Name": "길드기",
+    "Map": 225,
+    "X": 33,
+    "Y": 13,
+    "Floor": 0,
+    "Sprite": 16481,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "길드기"
+  },
+  {
+    "Id": 1610612764,
+    "Name": "길드기",
+    "Map": 226,
+    "X": 33,
+    "Y": 13,
+    "Floor": 0,
+    "Sprite": 16481,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "길드기"
+  },
+  {
+    "Id": 1610612765,
+    "Name": "길드기",
+    "Map": 227,
+    "X": 17,
+    "Y": 11,
+    "Floor": 0,
+    "Sprite": 16481,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "길드기"
+  },
+  {
+    "Id": 1610612766,
+    "Name": "길드기",
+    "Map": 228,
+    "X": 33,
+    "Y": 13,
+    "Floor": 0,
+    "Sprite": 16481,
+    "Flags": 0,
+    "Type": 2,
+    "Text": "길드기"
+  },
+  {
+    "Id": 1610612775,
+    "Name": "네루아",
+    "Map": 214,
+    "X": 33,
+    "Y": 25,
+    "Floor": 0,
+    "Sprite": 16384,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "네루아",
+    "OpenDialog": {
+      "Mode": 13, "Flags": 1, "PortraitKind": 1, "Sprite": 16384, "Color": 0,
+      "HeaderData": 20971520, "Text": "", "X": 33, "Y": 25, "MenuCodes": [0, 0, 0, 111]
+    }
+  },
+  {
+    "Id": 1610612799,
+    "Name": "오블로",
+    "Map": 214,
+    "X": 54,
+    "Y": 8,
+    "Floor": 1,
+    "Sprite": 16392,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "오블로"
+  },
+  {
+    "Id": 1610612791, "Name": "올드스미스", "Map": 256, "X": 15, "Y": 14, "Floor": 1,
+    "Sprite": 16392, "Flags": 11, "Type": 2, "Text": "올드스미스",
+    "OpenDialog": {
+      "Mode": 13, "Flags": 1, "PortraitKind": 1, "Sprite": 16392, "Color": 0,
+      "HeaderData": 20973568, "Text": "", "X": 15, "Y": 14, "MenuCodes": [0, 0, 0, 111]
+    }
+  },
+  {
+    "Id": 1610612792, "Name": "나무보로", "Map": 213, "X": 25, "Y": 28, "Floor": 0,
+    "Sprite": 16385, "Flags": 11, "Type": 2, "Text": "나무보로",
+    "OpenDialog": {
+      "Mode": 13, "Flags": 1, "PortraitKind": 1, "Sprite": 16385, "Color": 0,
+      "HeaderData": 20971776, "Text": "", "X": 25, "Y": 28, "MenuCodes": [0, 0, 0, 111]
+    },
+    "DialogReplies": [{
+      "Flags": 1, "Menu": 111, "Length": 8,
+      "Dialog": {
+        "Mode": 0, "Flags": 1, "PortraitKind": 1, "Sprite": 16385, "Color": 0,
+        "HeaderData": 20971776, "Text": "",
+        "Options": [{"Text": "나무이벤트", "Id": 1377}, {"Text": "나무이벤트보상", "Id": 1422}]
+      }
+    }]
+  },
+  {
+    "Id": 1610612793, "Name": "예절보로", "Map": 208, "X": 34, "Y": 32, "Floor": 0,
+    "Sprite": 16384, "Flags": 11, "Type": 2, "Text": "예절보로",
+    "OpenDialog": {
+      "Mode": 13, "Flags": 1, "PortraitKind": 1, "Sprite": 16384, "Color": 0,
+      "HeaderData": 20971520, "Text": "", "X": 34, "Y": 32, "MenuCodes": [0, 0, 0, 111]
+    }
+  },
+  {
+    "Id": 1610612795, "Name": "할아버지", "Map": 208, "X": 24, "Y": 10, "Floor": 0,
+    "Sprite": 16437, "Flags": 11, "Type": 2, "Text": "할아버지",
+    "OpenDialog": {
+      "Mode": 13, "Flags": 1, "PortraitKind": 1, "Sprite": 16437, "Color": 0,
+      "HeaderData": 20985088, "Text": "", "X": 24, "Y": 10, "MenuCodes": [0, 0, 0, 111]
+    }
+  },
+  {
+    "Id": 1610612767,
+    "Name": "견습미용사",
+    "Map": 1002,
+    "X": 72,
+    "Y": 68,
+    "Floor": 0,
+    "Sprite": 16430,
+    "Flags": 11,
+    "Type": 2,
+    "Text": "견습미용사"
+  },
+  {
+    "Id": 1610612794, "Name": "라드", "Map": 208, "X": 18, "Y": 18, "Floor": 0,
+    "Sprite": 16490, "Flags": 11, "Type": 2, "Text": "라드",
+    "OpenDialog": {
+      "Mode": 13, "Flags": 1, "PortraitKind": 1, "Sprite": 16490, "Color": 0,
+      "HeaderData": 20998656, "Text": "", "X": 18, "Y": 18, "MenuCodes": [0, 0, 0, 111]
+    }
+  },
+  {
+    "Id": 1610612831, "Name": "실루엣", "Map": 206, "X": 16, "Y": 9, "Floor": 0,
+    "Sprite": 16498, "Flags": 11, "Type": 2, "Text": "실루엣",
+    "OpenDialog": {
+      "Mode": 13, "Flags": 1, "PortraitKind": 1, "Sprite": 16498, "Color": 0,
+      "HeaderData": 21000704, "Text": "", "X": 16, "Y": 9, "MenuCodes": [64, 65, 71, 111]
+    }
+  },
+  {
+    "Id": 1610612816, "Name": "실루엣", "Map": 10206, "X": 16, "Y": 9, "Floor": 0,
+    "Sprite": 16498, "Flags": 11, "Type": 2, "Text": "실루엣",
+    "OpenDialog": {
+      "Mode": 13, "Flags": 1, "PortraitKind": 1, "Sprite": 16498, "Color": 0,
+      "HeaderData": 21000704, "Text": "", "X": 16, "Y": 9, "MenuCodes": [64, 65, 71, 111]
+    },
+    "Shop": [
+      { "Key": "recorded-8cb7-b9abb7ce", "Price": 78 },
+      { "Key": "recorded-8cb8-b5a8b8b0", "Price": 156, "Flags": 20, "RestockCapacity": 20 },
+      { "Key": "recorded-8d18-b6f3b8b6c6ae", "Price": 196, "Flags": 30, "RestockCapacity": 30 },
+      { "Key": "recorded-8cb9-c6c4bdc3b8aebfc2", "Price": 313 },
+      { "Key": "recorded-8cbb-b9ccb8aebfc2", "Price": 172, "Flags": 15, "RestockCapacity": 15 },
+      { "Key": "recorded-8cba-baeab8aebcbf", "Price": 706, "Flags": 10, "RestockCapacity": 10 },
+      { "Key": "recorded-8cbc-c4abc0dfb8aebfc2", "Price": 706 },
+      { "Key": "recorded-8cbd-b0a5b8aeb5e5", "Price": 2434, "Flags": 1, "RestockCapacity": 1 }
+    ]
+  },
+  {
+    "Map": 210,
+    "X": 33,
+    "Y": 11,
+    "Floor": 1,
+    "Sprite": 16392,
+    "Name": "그레파",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612826,
+    "Text": "그레파",
+    "OpenDialog": {
+      "Mode": 13,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 16392,
+      "Color": 0,
+      "HeaderData": 20973568,
+      "Text": "",
+      "X": 33,
+      "Y": 11,
+      "MenuCodes": [
+        0,
+        0,
+        0,
+        111
+      ]
+    },
+    "PursuitReplies": [
+      {
+        "Request": "3901006F",
+        "Packet": "MAIBAAAAAAFACAAAAAAAANwAMAABAE65+r3hIHs9Zry6t8IgMTY4s+IgMr/5IDIzwM8gIDE0OjE4fHs9Yby8v/kgwvwguvy4o7G4s6ouLi4gfHy5q775wLsgtbW/zSDB2bHuLj8FCLHiICAgILz6CL/AICAgIMWpCL+qICAgILvnCL3DICAgILnOCMG+ICAgILfh"
+      },
+      {
+        "Request": "3901006F/3A0100DC00310101",
+        "Packet": "MAIBAAAAAAFACAAAAAAAANwApgABAB256L/ssO0gvc3AuiCx4rz6wMwguau++cDOsKEuPwYFU0VOU0UMUkVNT1ZFIEFSTU9SC7j2xesgwfa4o7HiC7TrICAgICAgIMitC7jtICAgICAgILvzC8G+ICAgICAgILfh"
+      },
+      {
+        "Request": "3901006F/3A0100DC00310101/3A0100DC00A70101",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwBQwABAQdbez1iU0VOU0V7PWFdILHivPrAuiC48Mfowd+/oSCzqsW4s6q0wiB7PWJNT05TVEVSez1hwMcgtMm3wsC7IL7LILz2IMDWtMIgseK8+sDMwfYuIMDMILHivPrAuyC56L/2ILq4sNq0wrChLj8gwMwgseK8+sC7ILnov+yx4iDAp8fYvK20wiB7PWK48Mfovcl7PWHAzCC22b7us6qwxbOqIHs9YsH2tMl7PWHAzCCz9L7Gvt/B9ri4ILnov++89rChIMDWtNmz1yAgwMwgseK8+sC7IMDas9ewoSC56L/vvPYgwNa0wsH2ILO7sKEgx9G5+CDA2rPaIMXXvbrGriDH2Lq4sNqz1w=="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310101/3A0100DC00A70101/3A0100DC014400",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwBXAABAH/A2rPXtMIgez1iuPDH6L3Jez1htbUgus7Bt8fPsO0gez1iwfa0yXs9Ybi2wPogs7exuiDAzCCx4rz6wLsguei/7LHiIMCnx9i8rbTCIMH2tMkgW3s9ajEwez1hXcDMILXHvu6+3yDH0bTZs9cgs6rB37+hILTZvcMgv8Cw1LOq"
+      },
+      {
+        "Request": "3901006F/3A0100DC00310101/3A0100DC00A70102",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwBkQABAGdbez1mUmVtb3ZlQXJtb3J7PWFduKYguei/9iC6uLDatNmw7S4/IMDMILHivPrAuyC56L/sseIgwKfH0SDB2Lrxv80gwNq8vLChILXHvu4gwNa0wsH2IMiuwM7H2CC6wb7fILDatNku"
+      },
+      {
+        "Request": "3901006F/3A0100DC00310101/3A0100DC00A70102/3A0100DC019200",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwBkwABAHXAzCCx4rz6wLogez1twNqwtHs9Ybi4wMwguei/7yC89iDA1rTCILHivPrAzL7fIMDasLTAzCC1x77uvK0gv8K02bjpILChuKPDxCDB2bz2tMIgwNbB9ri4LiDB9rHdwLogsKG4o8PEIMHZvPYgvvi02bPXLi4="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310101/3A0100DC00A70103",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwBaQABAF9bez1iuPbF68H2uKOx4ns9YV2x4rz6wLogez1mxcKxx7W1ez1hwMcgseK8+rfOveEgseK6u8D7wM4gsPiw3SCx4rz6wd+/oSDHz7OqIMDMtNkuILnov+yw2rTCsKEuPw=="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310101/3A0100DC00A70103/3A0100DC016A00",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwBbQABADfAzCCx4rz6wLsguei/7yC89iDA1rTCILvntvfAzsH2IMDas9ogxde9usauIMfYusG+3yCw2rPX"
+      },
+      {
+        "Request": "3901006F/3A0100DC00310101/3A0100DC00A70103/3A0100DC016A00/3A0100DC016E00",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwBcgABAFp7PW25q7W1sKF7PWEgwfe+98C6ILChwfaw7SDA1rG6ILHXt7i02bjpILmrtbWwobfOveHAxyC89rfDwLogvvO4trOqILXHvvq0wsH2IMiuwM7H2CC6vLHuLj8="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310101/3A0100DC00A70103/3A0100DC016A00/3A0100DC016E00/3A0100DC017300",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwBdAABAGd7PWKw3cX1ez1hILHivPrAzCBbez1iRXhwZXJ0ez1hL3s9ajc1LjAwez1hXcDMu/Mgtce+7r7fwfYguei/77z2IMDWtNmz1yDBu7T1ILz2t8PAuyDH0bXav6EgtNm9wyC/wLDUs6ou"
+      },
+      {
+        "Request": "3901006F/3A0100DC00310101/3A0100DC00A70105",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwArgABAIHAsMO8v80gwaS9xcC7ILi8sNQgx9jB1rTCILjtu/MgseK8+sC7ILnov+yw2rTCsKEuPyC47bvzwLsgxevH2CDA2r3FwMcguLa3wsC7ILr8uKOw1CDIuLq5IL3DxbO89iDA1sC7sM0gwMy02S4gx9G5+CC56L/2ILq4sNq0wrChLj8="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310101/3A0100DC00A70105/3A0100DC00AF00",
+        "Packet": "MAIBAAAAAAFACAAAAAAAANwArwEBAGG47bvzwLsguei/7LHiIMCnx9i8rbTCIFt7PWcyMDAwMDBHez1hXb/NIHs9YklOVHs9YbChIFt7PWoxNXs9YV3AzLvzILXHvu6+3yDH0bTZs9cguei/9iC6uLDatMKwoS4/AgggICC/uSAgIAa+xrTPv8A="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310101/3A0100DC00A70105/3A0100DC00AF00/3A0100DC00B000",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwAuAABADrB9rTJwMwgs7e+xiC56L/vvPawoSC++LTZs9cgwbu09SC89rfDwLsgx8+w7SC02b3DIL/AsNSzqi4u"
+      },
+      {
+        "Request": "3901006F/3A0100DC00310104",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwBsgABAF23zrejvcO+xsDHIL3Duc7AzCC1x7DtIL3NwLqwoT8gt863o73DvsbAxyC9w7nOwMwgtce3wbjpLCA1MDAgsKW4rrXluKYgvLyx3cC4t84gs7u+3yDH0bTZs9cuLi4="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310104/3A0100DC01B300",
+        "Packet": "MAIBAAAAAAFACAAAAAAAANwBswEBABe3zrejvcO+xiC9w7nOwMwgtcnF2bChPwICv7kGvsa0z7/A"
+      },
+      {
+        "Request": "3901006F/3A0100DC00310104/3A0100DC01B300/3A0100DC01B40101",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwB2QABABe3zrejvcO+xiC9w7nOwMwgtce02SEhIQ=="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310102",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwAOQABANy/wMWpLi4gv8DFqbXpwLogwM6wo8DHILjwvcCw+iC68b3Bx9EguPO9usXNt8694SC3zrejvcO+xiC4tsC7ILHZw8QgvaO/obytILytvcTAuyDHz7DtIMDWtNmz1yCwobL7IL/AxanAxyC9wLDdwLi3ziDAzsfPv6kguLbAuyDB1rnOtenAzCC068fHIMfPsO8gx8/B9i4gyKS9w7OqILi2wLu/oSC/wMWpsKEgvcCw3cfPsNQgtce46SDA2rPXtvO1tSC4tsC7wLsgwfbE0SDB1rHmILnZtvOz1y4u"
+      },
+      {
+        "Request": "3901006F/3A0100DC00310102/3A0100DC003A00",
+        "Packet": "MAIBAAAAAAFACAAAAAAAANwAMAABAE25+r3hIHs9Zry6t8IgMTY4s+IgMr/5IDIxwM8gIDY6NDh8ez1hvLy/+SDC/CC6/Lijsbizqi4uLiB8fLmrvvnAuyC1tb/NIMHZse4uPwUIseIgICAgvPoIv8AgICAgxakIv6ogICAgu+cIvcMgICAguc4Iwb4gICAgt+E="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310103",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwAngABADu3zrejvcO+xsDHIL+qu+e/oSDA2rPXwMcgvvfA+8DMILOywLu89iDA1rW1t88gs+u3wiDHz7DUs6ouIA=="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310103/3A0100DC009F00",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwAnwEBAD6zu7ChILHXt7MgwNqz17+hsNQgt863o73DvsbAxyCw6MD9wMcguq/Irb+hILTrx9i8rSC+y7fBIMHWwfYuLg=="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310103/3A0100DC009F00/3A0100DC00A000",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwAoAEBAEExfja/+SC758DMv6G0wiAwODowMH4xODowMCC1v77IIMfYsKEgtrAgwNbAuLjnLCCx4r/CwMwgs7e+xiDB+LTZLg=="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310103/3A0100DC009F00/3A0100DC00A000/3A0100DC00A100",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwAoQEBAEQ3fjEyv/kgu+fAzL+htMIgMDQ6MDB+MjI6MDAgtb++yCDH2LChILawIMDWwLi45ywgseK/wsDMIL/AuKOw1CC1yLTZLg=="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310103/3A0100DC009F00/3A0100DC00A000/3A0100DC00A100/3A0100DC00A200",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwAogEBAGi3zrejvcO+xrTCIMWpsNQgMrDowP23ziCzqrS1vu4gwfa45yCx1yCx4r/CwMcgwvewoSC9ycfPv6kgsOjA/cDHILqvyK2/oSC1+7ilIMfHx9iwoSC787TnyPcguLnAuiDG7cDMtNkuLg=="
+      },
+      {
+        "Request": "3901006F/3A0100DC00310103/3A0100DC009F00/3A0100DC00A000/3A0100DC00A100/3A0100DC00A200/3A0100DC00A300",
+        "Packet": "MAABAAAAAAFACAAAAAAAANwAowEAAEDAzCDBpLW1uLggvsuw7SDA1rW1t88gx8+w7S4gs6q408H2tMIguPDH6MC7IMXrx9ggvsu+xr7fwfYuLiAuIC4u"
+      }
+    ]
+  },
+  {
+    "Map": 10206,
+    "X": 50,
+    "Y": 12,
+    "Floor": 0,
+    "Sprite": 16385,
+    "Name": "휴",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612815,
+    "Text": "휴",
+    "OpenDialog": {
+      "Mode": 13,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 16385,
+      "Color": 0,
+      "HeaderData": 20971776,
+      "Text": "",
+      "X": 50,
+      "Y": 12,
+      "MenuCodes": [
+        0,
+        0,
+        0,
+        111
+      ]
+    },
+    "DialogReplies": [
+      {
+        "Flags": 1,
+        "Menu": 111,
+        "Length": 8,
+        "Dialog": {
+          "Mode": 0,
+          "Flags": 1,
+          "PortraitKind": 1,
+          "Sprite": 16385,
+          "Color": 0,
+          "HeaderData": 20971776,
+          "Text": "",
+          "Options": [
+            {
+              "Text": "사랑의초컬릿3",
+              "Id": 1233
+            },
+            {
+              "Text": "화이트데이",
+              "Id": 1265
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Id": 1610612822, "Name": "오크왕자", "Map": 10004, "X": 95, "Y": 176, "Floor": 2,
+    "Sprite": 18385, "Flags": 11, "Type": 2, "Text": "오크왕자"
+  },
+  {
+    "Map": 206,
+    "X": 37,
+    "Y": 21,
+    "Floor": 0,
+    "Sprite": 16504,
+    "Name": "케이",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612790,
+    "Text": "케이",
+    "Shop": [
+      {
+        "Key": "recorded-8c41-c6d2",
+        "Price": 166,
+        "Flags": 5,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8003-b7d5bcd2b5e5",
+        "Price": 393,
+        "Flags": 5,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "scimitar",
+        "Price": 393,
+        "Flags": 4,
+        "RestockCapacity": 7
+      },
+      {
+        "Key": "recorded-8007-b9d9bdbac5b8b5e5bcd2b5e5",
+        "Price": 620,
+        "Flags": 5,
+        "RestockCapacity": 6
+      },
+      {
+        "Key": "recorded-800b-b1d7b7b9c0ccc6aebcd2b5e5",
+        "Price": 1146,
+        "Flags": 2,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8000-b4ebb0c5",
+        "Price": 114,
+        "Flags": 3,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8016-b0edc5c2b5b5",
+        "Price": 2293,
+        "Flags": 4,
+        "RestockCapacity": 4
+      },
+      {
+        "Key": "recorded-8009-b7d5bdbac7c7beee",
+        "Price": 191,
+        "Flags": 1,
+        "RestockCapacity": 4
+      },
+      {
+        "Key": "recorded-8004-b9ddbff9b5b5",
+        "Price": 471,
+        "Flags": 3,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8001-bed7bdba",
+        "Price": 366,
+        "Flags": 6,
+        "RestockCapacity": 7
+      },
+      {
+        "Key": "recorded-8002-c7dcb8d3",
+        "Price": 369,
+        "Flags": 4,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8005-bfecb5e7bab8bfec",
+        "Price": 279,
+        "Flags": 5,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8017-bfecb5e7c7cfc7c1",
+        "Price": 1384,
+        "Flags": 5,
+        "RestockCapacity": 5
+      }
+    ],
+    "OpenDialog": {
+      "Mode": 13,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 16504,
+      "Color": 0,
+      "HeaderData": 21002240,
+      "Text": "",
+      "X": 37,
+      "Y": 21,
+      "MenuCodes": [
+        64,
+        65,
+        0,
+        111
+      ]
+    }
+  },
+  {
+    "Map": 205,
+    "X": 47,
+    "Y": 19,
+    "Floor": 0,
+    "Sprite": 16503,
+    "Name": "칼라스",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612797,
+    "Text": "칼라스",
+    "OpenDialog": {
+      "Mode": 13,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 16503,
+      "Color": 0,
+      "HeaderData": 21001984,
+      "Text": "",
+      "X": 47,
+      "Y": 19,
+      "MenuCodes": [
+        0,
+        0,
+        0,
+        111
+      ]
+    }
+  },
+  {
+    "Map": 205,
+    "X": 30,
+    "Y": 19,
+    "Floor": 0,
+    "Sprite": 16389,
+    "Name": "초브",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612798,
+    "Text": "초브",
+    "OpenDialog": {
+      "Mode": 13,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 16389,
+      "Color": 0,
+      "HeaderData": 20972800,
+      "Text": "",
+      "X": 30,
+      "Y": 19,
+      "MenuCodes": [
+        0,
+        0,
+        0,
+        111
+      ]
+    }
+  },
+  {
+    "Map": 10206,
+    "X": 37,
+    "Y": 21,
+    "Floor": 0,
+    "Sprite": 16504,
+    "Name": "케이",
+    "Flags": 11,
+    "Type": 2,
+    "Id": 1610612814,
+    "Text": "케이",
+    "OpenDialog": {
+      "Mode": 13,
+      "Flags": 1,
+      "PortraitKind": 1,
+      "Sprite": 16504,
+      "Color": 0,
+      "HeaderData": 21002240,
+      "Text": "",
+      "X": 37,
+      "Y": 21,
+      "MenuCodes": [
+        64,
+        65,
+        0,
+        111
+      ]
+    },
+    "Shop": [
+      {
+        "Key": "recorded-8c41-c6d2",
+        "Price": 124,
+        "Flags": 5,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8003-b7d5bcd2b5e5",
+        "Price": 294,
+        "Flags": 0,
+        "RestockCapacity": 0
+      },
+      {
+        "Key": "scimitar",
+        "Price": 294,
+        "Flags": 0,
+        "RestockCapacity": 0
+      },
+      {
+        "Key": "recorded-8007-b9d9bdbac5b8b5e5bcd2b5e5",
+        "Price": 464,
+        "Flags": 4,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-800b-b1d7b7b9c0ccc6aebcd2b5e5",
+        "Price": 856,
+        "Flags": 5,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8000-b4ebb0c5",
+        "Price": 85,
+        "Flags": 5,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8016-b0edc5c2b5b5",
+        "Price": 1713,
+        "Flags": 5,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8009-b7d5bdbac7c7beee",
+        "Price": 142,
+        "Flags": 5,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8004-b9ddbff9b5b5",
+        "Price": 352,
+        "Flags": 5,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8001-bed7bdba",
+        "Price": 274,
+        "Flags": 5,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8002-c7dcb8d3",
+        "Price": 275,
+        "Flags": 5,
+        "RestockCapacity": 5
+      },
+      {
+        "Key": "recorded-8005-bfecb5e7bab8bfec",
+        "Price": 209,
+        "Flags": 0,
+        "RestockCapacity": 0
+      },
+      {
+        "Key": "recorded-8017-bfecb5e7c7cfc7c1",
+        "Price": 1035,
+        "Flags": 5,
+        "RestockCapacity": 5
+      }
+    ],
+    "DialogReplies": [
+      {
+        "Flags": 1,
+        "Menu": 111,
+        "Length": 8,
+        "Dialog": {
+          "Mode": 0,
+          "Flags": 1,
+          "PortraitKind": 1,
+          "Sprite": 16504,
+          "Color": 0,
+          "HeaderData": 21002240,
+          "Text": "",
+          "Options": [
+            {
+              "Text": "케이의슬라임조각수집",
+              "Id": 1257
+            },
+            {
+              "Text": "케이의화분",
+              "Id": 1373
+            }
+          ]
+        }
+      }
+    ],
+    "PursuitReplies": [
+      {
+        "Request": "3901055D",
+        "Packet": "MAABAAAAAAFAeAAAAAAAAAAAAQABAFbIrbrQwMy/5D8gwaYgyK260MC6IMDfIMDatvOw7SDA1r7uv+QuIDQvNX40LzI1ILHisKMgtb++yCDA+rPhIDa9wyDAzMjEv6Egw6O+xr/Nwda8vL/kLg=="
+      },
+      {
+        "Request": "390104E9",
+        "Packet": "MAABAAAAAAFAeAAAAAAAAAAAAQABABG+yLPnPyCzrSDEycDMvt8uLg=="
+      },
+      {
+        "Request": "390104E9/3A010000000200",
+        "Packet": "MAABAAAAAAFAeAAAAAAAAAAAAQEBAH1bez1mvb2288DTwbawons9YV0gwLsgs+y/qbytILmrseK/oSC52bijuOkgwbsgtPUgsK3H2MH4tNmw7SDH2LytIMfRILn4IMfYuri3wbDtIMfPtMK1pSwguri9w7TZvcPHxyCzrSCwobDUIMH2xbCx4rW1ILnZuvy8rS4uLg=="
+      },
+      {
+        "Request": "390104E9/3A010000000200/3A010000000200",
+        "Packet": "MAIBAAAAAAFAeAAAAAAAAAAAAQEAAFqx17ehvK0gW3s9Zr29tvPA08G2sKJ7PWFdwLsgsbjH2MHWtMIgvsa4o7nZwMzGrrv9wLsguPDB/cHfwM61pS4uIHzIpL3DILW1v83B2SC7/bCiwMwgwNa+7j8CAr+5Br7GtM+/wA=="
+      },
+      {
+        "Request": "390104E9/3A010000000200/3A010000000200/3A01000000020101",
+        "Packet": "MAABAAAAAAFAeAAAAAAAAAAAAQABADux17ezLCBbez1mvb2288DTwbawoijGxLb1u/Ypez1hXcC7IHs9ajEwez1hsLO4uCCxuMfYwdm3oS4uPw=="
+      },
+      {
+        "Request": "390104E9/3A010000000200/3A010000000200/3A01000000020101/3A010000000200",
+        "Packet": "MAABAAAAAAFAeAAAAAAAAAAAAQEBAFC03Cwgez1qMns9Yb3DsKMgs7u3ziCxuMfYweC+3yDHz7G4Li6xuMfYIL/AuOksIL7GuKO52cDMxq668bTCIHs9ajEwMDB7PWGwpbiuteUuLg=="
+      },
+      {
+        "Request": "390104E9/3A010000000200/3A010000000200/3A01000000020101/3A010000000200/3A010000000200",
+        "Packet": "MAABAAAAAAFAeAAAAAAAAAAAAQEBAE5bez1tvb2288DTez1hXbXpwLogt863o73DvsYguLbAuyC8rcLKIMfYwPq1v7G8v6Egu+yw7SDA1rTZtMIgwaS1tbTCIL7LsO0gwNbB9j8="
+      },
+      {
+        "Request": "390104E9/3A010000000200/3A010000000200/3A01000000020101/3A010000000200/3A010000000200/3A010000000200",
+        "Packet": "MAABAAAAAAFAeAAAAAAAAAAAAQEBAAyx17ezILrOxbnH2CE="
+      }
+    ]
+  }
+]

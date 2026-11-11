@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+    <ElanciaWorldData Condition="'$(ElanciaWorldData)' == ''">world-recorded.json</ElanciaWorldData>
+    <!-- The public source archive omits the local test harness and its login handler. -->
+    <ElanciaReleaseBundle Condition="'$(ElanciaReleaseBundle)' == '' and !Exists('LoginPacket.cs')">true</ElanciaReleaseBundle>
+    <DefineConstants Condition="'$(ElanciaReleaseBundle)' == 'true'">$(DefineConstants);ELANCIA_RELEASE_BUNDLE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(ElanciaWorldData)" LogicalName="ElanciaLocalServer.world-recorded.json" />
+    <EmbeddedResource Include="evidence/original-Meta.dat" LogicalName="ElanciaLocal.NativeMeta.dat"
+                      Condition="'$(IncludeNativeMeta)' != 'false' and Exists('evidence/original-Meta.dat')" />
+    <Compile Remove="manager/**/*.cs" />
+    <Compile Remove="IntegrationTests.cs;SelfTests.cs;LoginPacket.cs;PacketFixtures.cs" Condition="'$(ElanciaReleaseBundle)' == 'true'" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.14" />
+  </ItemGroup>
+</Project>
