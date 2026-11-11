@@ -1,6 +1,6 @@
 # Elancia Local
 
-**[v0.1.0-preview.2 다운로드](https://github.com/svosu00-spec/elancia-simulator/releases/tag/v0.1.0-preview.2)**
+**[릴리스 및 다운로드](https://github.com/svosu00-spec/elancia-simulator/releases)**
 
 일랜시아 v611의 클라이언트·서버 통신을 공부하는 비공식 로컬 시뮬레이터입니다. 상점 구매, 이동, NPC 대화, 전투의 요청과 응답을 기록하고 `elancia-local` MCP에서 조회해 서버 코드와 비교할 수 있습니다.
 
